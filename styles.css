@@ -27,12 +27,12 @@ body {
 }
 
 .navbar-brand {
-  margin-right: 50%;
+  margin-right: 42%;
 }
 
-.navigation-heading{
-  color: #fff;
-  font-family: "Roboto Mono";
+.navigation-heading {
+  color: #C0C0C0;
+  font-family: "Poppins";
   font-weight: bold;
 }
 
@@ -49,23 +49,19 @@ body {
   width: 130px;
 }
 
-.container-about {
-  color: #fff;
-}
-
 /* About Me */
-#about {
+#title {
   margin-top: 10%;
 }
 
-.about-heading-1 {
+.title-heading-1 {
   font-size: 9rem;
   font-family: "VikeysPersonalUse-YzaPL";
   font-weight: bold;
   color: #fff;
 }
 
-.about-heading-2 {
+.designed {
   font-family: "VikeysPersonalUse-YzaPL";
   background-image: linear-gradient(108deg, #F59919, #f53ec2);
   font-weight: 700;
@@ -74,14 +70,33 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline;
-}
-.about-hand{
-  display: inline;
+  line-height: 40px;
 }
 
-.about-text {
-  font-size: 1.3rem;
-  font-family: "Poppins";
+/* .title-text {
+  color: #EAEADA;
+} */
+/* About Me Section */
+#about {
+  margin-top: 25%;
+}
+
+.about-heading-h1 {
+  font-size: 3rem;
+  font-family: "VikeysPersonalUse-YzaPL";
   font-weight: bold;
   color: #EAEADA;
+}
+
+.hand{
+  display: inline;
+  font-size: 2rem;
+}
+
+.about-paragraph {
+  font-size: 1.4rem;
+  font-family: "VikeysPersonalUse-YzaPL";
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
 }
